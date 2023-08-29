@@ -1,0 +1,74 @@
+{
+  "kind": "collectionType",
+  "collectionName": "activities",
+  "info": {
+    "singularName": "activity",
+    "pluralName": "activities",
+    "displayName": "Activity"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nama_paket": {
+      "type": "string"
+    },
+    "tipe_kegiatan": {
+      "type": "enumeration",
+      "enum": [
+        "Tentang Kegiatan",
+        "Keuangan kegiatan",
+        "Kontrak"
+      ]
+    },
+    "program": {
+      "type": "text"
+    },
+    "sub_kegiatan": {
+      "type": "text"
+    },
+    "urusan": {
+      "type": "text"
+    },
+    "bidang": {
+      "type": "text"
+    },
+    "distrik": {
+      "type": "string"
+    },
+    "titik_koordinat": {
+      "type": "string"
+    },
+    "klasifikasi": {
+      "type": "string"
+    },
+    "ppk": {
+      "type": "string"
+    },
+    "nilai_ppk": {
+      "type": "float"
+    },
+    "progress_fisik": {
+      "type": "string"
+    },
+    "nilai_kontrak": {
+      "type": "float"
+    },
+    "nilai_pagu": {
+      "type": "float"
+    },
+    "sumber_dana": {
+      "type": "string"
+    },
+    "penyedia": {
+      "type": "string"
+    },
+    "no_rekening": {
+      "type": "string"
+    },
+    "kode_rekening": {
+      "type": "string"
+    }
+  }
+}

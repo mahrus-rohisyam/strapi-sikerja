@@ -1,0 +1,41 @@
+{
+  "kind": "collectionType",
+  "collectionName": "bank_providers",
+  "info": {
+    "singularName": "bank-provider",
+    "pluralName": "bank-providers",
+    "displayName": "Bank Provider"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nama_bank": {
+      "type": "string"
+    },
+    "bank_code": {
+      "type": "string"
+    },
+    "icon": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "qr": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

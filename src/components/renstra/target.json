@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_renstra_targets",
+  "info": {
+    "displayName": "Target",
+    "icon": "crown"
+  },
+  "options": {},
+  "attributes": {
+    "tahun_ke": {
+      "type": "integer"
+    },
+    "jumlah_capaian": {
+      "type": "integer"
+    }
+  }
+}

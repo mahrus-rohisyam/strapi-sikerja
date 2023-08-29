@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "strategic_plans",
+  "info": {
+    "singularName": "strategic-plan",
+    "pluralName": "strategic-plans",
+    "displayName": "Strategic Plan"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "manfaat": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::impact.impact",
+      "inversedBy": "rencana_strategi"
+    },
+    "sasaran": {
+      "type": "text"
+    },
+    "indikator": {
+      "type": "text"
+    },
+    "target_tahunan": {
+      "displayName": "Target",
+      "type": "component",
+      "repeatable": true,
+      "component": "renstra.target"
+    }
+  }
+}
